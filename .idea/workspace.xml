@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abc6eff5-73fd-457d-b43d-ea359c1b32d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../api-order/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-order/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jna_jna_3_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_19_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_3_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/controller/KungfuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/ScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/ScheduleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/component/MyHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/component/MyHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/filter/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/listener/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/listener/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/servlet/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="687410255">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="4" />
+          <entry key="class" value="138" />
+          <entry key="factories" value="2" />
+          <entry key="html" value="3" />
+          <entry key="java" value="106" />
+          <entry key="pom" value="5" />
+          <entry key="properties" value="20" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="138" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="106" />
+          <entry key="Properties" value="20" />
+          <entry key="UML" value="4" />
+          <entry key="XML" value="33" />
+          <entry key="YAML" value="23" />
+          <entry key="spring.factories" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="5797" />
+          <entry key="properties" value="74" />
+          <entry key="txt" value="15" />
+          <entry key="xml" value="500" />
+          <entry key="yml" value="672" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="5797" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Properties" value="74" />
+          <entry key="XML" value="500" />
+          <entry key="YAML" value="672" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ErrorMvcAutoConfiguration</find>
+      <find>cache</find>
+      <find>CacheConfiguration</find>
+      <find>admin</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../api-cut" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../api-redpacket" value="PREVIEW" />
+        <entry key="D:/project/api-account" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/exception/TestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/controller/ExceptionHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/ServerletConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/servlet/MyServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/listener/MyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/ServletConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/entity/role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/component/MyErrorAttributes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyCacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/AMQPConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/SpringbootLearnApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-local.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/ScheduleService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kn/springbootlearn/SpringbootLearnApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/controller/KungfuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/ScheduleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/filter/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/component/MyHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/aspect/MyAspect.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootlearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-space\springboot-learn\src\main\resources\templates" />
+      <recent name="D:\idea-space\springboot-learn\src\main\java\com\kn\springbootlearn\controller" />
+      <recent name="D:\idea-space\springboot-learn\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-space\springboot-learn\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootLearnApplication">
+    <configuration name="SpringbootLearnApplicationTests.sendByFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kn.springbootlearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kn.springbootlearn" />
+      <option name="MAIN_CLASS_NAME" value="com.kn.springbootlearn.SpringbootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="sendByFanout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearnApplicationTests.sendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kn.springbootlearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kn.springbootlearn" />
+      <option name="MAIN_CLASS_NAME" value="com.kn.springbootlearn.SpringbootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="sendMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearnApplicationTests.sendMineMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kn.springbootlearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kn.springbootlearn" />
+      <option name="MAIN_CLASS_NAME" value="com.kn.springbootlearn.SpringbootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="sendMineMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearnApplicationTests.sendSimpleMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kn.springbootlearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kn.springbootlearn" />
+      <option name="MAIN_CLASS_NAME" value="com.kn.springbootlearn.SpringbootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="sendSimpleMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearnApplicationTests.setAmqpAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kn.springbootlearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kn.springbootlearn" />
+      <option name="MAIN_CLASS_NAME" value="com.kn.springbootlearn.SpringbootLearnApplicationTests" />
+      <option name="METHOD_NAME" value="setAmqpAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kn.springbootlearn.SpringbootLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringbootLearnApplication" />
+      <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendMessage" />
+      <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendByFanout" />
+      <item itemvalue="JUnit.SpringbootLearnApplicationTests.setAmqpAdmin" />
+      <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendSimpleMail" />
+      <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendMineMail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendMineMail" />
+        <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendSimpleMail" />
+        <item itemvalue="JUnit.SpringbootLearnApplicationTests.setAmqpAdmin" />
+        <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendMessage" />
+        <item itemvalue="JUnit.SpringbootLearnApplicationTests.sendByFanout" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abc6eff5-73fd-457d-b43d-ea359c1b32d5" name="Default Changelist" comment="" />
+      <created>1552714252571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552714252571</updated>
+      <workItem from="1552714255635" duration="6365000" />
+      <workItem from="1552790036300" duration="15345000" />
+      <workItem from="1552873000024" duration="5940000" />
+      <workItem from="1552893059330" duration="588000" />
+      <workItem from="1552960137846" duration="1734000" />
+      <workItem from="1553044914411" duration="8138000" />
+      <workItem from="1553093096363" duration="822000" />
+      <workItem from="1553131765224" duration="8119000" />
+      <workItem from="1553217399908" duration="13098000" />
+      <workItem from="1553305252804" duration="7248000" />
+      <workItem from="1553340756553" duration="589000" />
+      <workItem from="1553343474918" duration="1199000" />
+      <workItem from="1553477279554" duration="3119000" />
+      <workItem from="1553519725038" duration="646000" />
+      <workItem from="1553564634706" duration="3243000" />
+      <workItem from="1553690881360" duration="2982000" />
+      <workItem from="1553699588577" duration="1907000" />
+      <workItem from="1553736525668" duration="7519000" />
+      <workItem from="1553763136440" duration="8857000" />
+      <workItem from="1553822204321" duration="19025000" />
+      <workItem from="1553930223226" duration="2415000" />
+      <workItem from="1554014970320" duration="5070000" />
+      <workItem from="1554082269002" duration="2211000" />
+    </task>
+    <task id="LOCAL-00001" summary="submit project">
+      <created>1553826536036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553826536036</updated>
+    </task>
+    <task id="LOCAL-00002" summary="submit project2">
+      <created>1553826604350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553826604350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringbootLearnApplicationTests_sendByFanout - 2019.03.28 at 17h 53m 32s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendByFanout" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendByFanout - 2019.03.28 at 17h 54m 38s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendByFanout" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendByFanout - 2019.03.28 at 18h 06m 32s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendByFanout" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendByFanout - 2019.03.28 at 18h 08m 51s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendByFanout" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendMessage - 2019.03.28 at 18h 09m 31s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendMessage - 2019.03.28 at 18h 10m 18s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_setAmqpAdmin - 2019.03.28 at 20h 55m 22s.xml">
+      <configuration name="SpringbootLearnApplicationTests.setAmqpAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendSimpleMail - 2019.03.29 at 11h 37m 03s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendSimpleMail - 2019.03.29 at 11h 37m 48s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendSimpleMail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootLearnApplicationTests_sendMineMail - 2019.03.29 at 11h 46m 43s.xml">
+      <configuration name="SpringbootLearnApplicationTests.sendMineMail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126179000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31270358" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39716312" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24530831" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3134752" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="submit project" />
+    <MESSAGE value="submit project2" />
+    <option name="LAST_COMMIT_MESSAGE" value="submit project2" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/support/converter/MessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="73" column="30" lean-forward="true" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/core/AmqpAdmin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-rabbit/1.7.4.RELEASE/spring-rabbit-1.7.4.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitAdmin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/amqp/spring-amqp/1.7.4.RELEASE/spring-amqp-1.7.4.RELEASE.jar!/org/springframework/amqp/core/Binding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchDataAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="80" column="55" lean-forward="true" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchRepositoriesAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-elasticsearch/2.1.9.RELEASE/spring-data-elasticsearch-2.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-data-elasticsearch/1.5.9.RELEASE/spring-boot-starter-data-elasticsearch-1.5.9.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-starter-data-elasticsearch/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/com.kn:springboot-learn:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.kn:springboot-learn:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.kn:springboot-learn:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-aop:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-web:jar:4.3.13.RELEASE/org.springframework:spring-beans:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE/org.springframework:spring-webmvc:jar:4.3.13.RELEASE/org.springframework:spring-expression:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:1.5.9.RELEASE/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23/org.apache.tomcat:tomcat-annotations-api:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-core:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.9.RELEASE/org.springframework:spring-test:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.23/org.apache.tomcat:tomcat-juli:jar:8.5.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE/org.springframework:spring-jdbc:jar:4.3.13.RELEASE/org.springframework:spring-tx:jar:4.3.13.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.44</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.14</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.1</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.1/org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-cache:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-cache:jar:1.5.9.RELEASE/org.springframework:spring-context:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-cache:jar:1.5.9.RELEASE/org.springframework:spring-context-support:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.9.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.9.RELEASE/org.springframework:spring-oxm:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE/redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework:spring-messaging:jar:4.3.13.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/com.rabbitmq:http-client:jar:1.1.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/com.rabbitmq:http-client:jar:1.1.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/com.rabbitmq:http-client:jar:1.1.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/com.rabbitmq:http-client:jar:1.1.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/com.rabbitmq:amqp-client:jar:4.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/org.springframework.retry:spring-retry:jar:1.2.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-amqp:jar:1.5.9.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE/org.springframework.amqp:spring-amqp:jar:1.7.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-core:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-backward-codecs:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-analyzers-common:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-queries:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-memory:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-highlighter:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-queryparser:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-queryparser:jar:5.5.4/org.apache.lucene:lucene-sandbox:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-suggest:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-suggest:jar:5.5.4/org.apache.lucene:lucene-misc:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-join:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-join:jar:5.5.4/org.apache.lucene:lucene-grouping:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-spatial:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-spatial:jar:5.5.4/org.apache.lucene:lucene-spatial3d:jar:5.5.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.apache.lucene:lucene-spatial:jar:5.5.4/com.spatial4j:spatial4j:jar:0.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.elasticsearch:securesm:jar:1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.carrotsearch:hppc:jar:0.7.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.10</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/io.netty:netty:jar:3.10.6.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.ning:compress-lzf:jar:1.0.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.tdunning:t-digest:jar:3.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/org.hdrhistogram:HdrHistogram:jar:2.1.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/commons-cli:commons-cli:jar:1.3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-elasticsearch:jar:1.5.9.RELEASE/org.springframework.data:spring-data-elasticsearch:jar:2.1.9.RELEASE/org.elasticsearch:elasticsearch:jar:2.4.6/com.twitter:jsr166e:jar:1.1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE/org.springframework.boot:spring-boot:jar:1.5.9.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1941795665634676" x="5026.0" y="1247.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/scheduling/annotation/Schedules.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/scheduling/annotation/Scheduled.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/ScheduleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/mail/MailProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/mail/MailSenderAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/SpringbootLearnApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar!/javax/mail/internet/MimeMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pages/level1/1.html" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context-support/4.3.13.RELEASE/spring-context-support-4.3.13.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kn/springbootlearn/SpringbootLearnApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-dependencies/1.5.9.RELEASE/spring-boot-dependencies-1.5.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/security/SpringBootWebSecurityConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/controller/KungfuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/ScheduleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/kn/springbootlearn/controller/TestController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/component/MyHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/1.5.9.RELEASE/spring-boot-starter-parent-1.5.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/exception/TestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/servlet/MyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/web/aspect/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/AMQPConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/MyMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kn/springbootlearn/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-learn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
