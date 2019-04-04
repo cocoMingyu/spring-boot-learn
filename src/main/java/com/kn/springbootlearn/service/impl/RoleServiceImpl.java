@@ -1,15 +1,11 @@
 package com.kn.springbootlearn.service.impl;
 
-import com.kn.springbootlearn.entity.Role;
+import com.kn.springbootlearn.entity.model.Role;
 import com.kn.springbootlearn.mapper.RoleMapper;
 import com.kn.springbootlearn.service.RoleService;
-import org.springframework.amqp.core.Message;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

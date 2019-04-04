@@ -3,8 +3,6 @@ package com.kn.springbootlearn.config;
 import com.kn.springbootlearn.web.filter.MyFilter;
 import com.kn.springbootlearn.web.listener.MyListener;
 import com.kn.springbootlearn.web.servlet.MyServlet;
-import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
-import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;

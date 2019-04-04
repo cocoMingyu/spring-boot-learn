@@ -1,6 +1,6 @@
 package com.kn.springbootlearn.controller;
 
-import com.kn.springbootlearn.entity.Role;
+import com.kn.springbootlearn.entity.model.Role;
 import com.kn.springbootlearn.exception.TestException;
 import com.kn.springbootlearn.mapper.RoleMapper;
 import com.kn.springbootlearn.service.RoleService;

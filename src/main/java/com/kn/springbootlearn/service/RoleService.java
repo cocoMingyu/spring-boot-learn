@@ -1,7 +1,6 @@
 package com.kn.springbootlearn.service;
 
-import com.kn.springbootlearn.entity.Role;
-import org.springframework.stereotype.Service;
+import com.kn.springbootlearn.entity.model.Role;
 
 import java.util.List;
 

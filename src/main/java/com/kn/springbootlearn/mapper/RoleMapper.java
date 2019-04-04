@@ -1,7 +1,7 @@
 package com.kn.springbootlearn.mapper;
 
 
-import com.kn.springbootlearn.entity.Role;
+import com.kn.springbootlearn.entity.model.Role;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

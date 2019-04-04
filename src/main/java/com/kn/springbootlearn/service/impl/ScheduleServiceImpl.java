@@ -17,7 +17,7 @@ public class ScheduleServiceImpl implements ScheduleService {
      * [0 0/5 1,2,3 * * ?]
      */
     @Override
-    @Scheduled(cron = "10 * * 1 * ?")
+    @Scheduled(cron = "30 * * * * ?")
     public void scheduler(){
         System.out.println("scheduler ...");
     }
