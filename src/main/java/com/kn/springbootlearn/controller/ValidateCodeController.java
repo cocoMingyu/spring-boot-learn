@@ -44,11 +44,11 @@ public class ValidateCodeController {
         ImageIO.write(imageCode.getImage(),"JPEG",response.getOutputStream());
     }
 
-    @GetMapping("/code/sms")
+   /* @GetMapping("/code/sms")
     public void createSmsCode(HttpServletRequest request, HttpServletResponse response) throws ServletRequestBindingException {
-        ValidateCode smsCode = validateCodeGenerator.generate(new ServletWebRequest(request));
+        ValidateCode smsCode = (ValidateCode) validateCodeGenerator.generate(new ServletWebRequest(request));
         sessionStrategy.setAttribute(new ServletWebRequest(request),SESSION_KEY,smsCode);
         String mobile = ServletRequestUtils.getRequiredStringParameter(request, "mobile");
         smsService.send(mobile,smsCode.getCode());
-    }
+    }*/
 }

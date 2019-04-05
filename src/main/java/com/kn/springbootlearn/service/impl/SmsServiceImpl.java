@@ -3,6 +3,7 @@ package com.kn.springbootlearn.service.impl;
 import com.kn.springbootlearn.service.SmsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 /**
  * @ Author:kn
@@ -10,6 +11,7 @@ import org.slf4j.LoggerFactory;
  * @ Date:Created in 2019/4/4 11:29
  * @ Modified By:
  */
+@Service
 public class SmsServiceImpl implements SmsService {
     private static final Logger logger = LoggerFactory.getLogger(SmsServiceImpl.class);
 

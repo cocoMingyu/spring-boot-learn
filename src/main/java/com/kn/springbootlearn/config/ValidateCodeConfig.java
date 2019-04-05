@@ -29,10 +29,4 @@ public class ValidateCodeConfig {
         imageCodeGenerator.setSecurityProperties(securityProperties);
         return imageCodeGenerator;
     }
-
-    @Bean
-    @ConditionalOnMissingBean(SmsService.class)
-    public SmsService smsService(){
-        return new SmsServiceImpl();
-    }
 }
