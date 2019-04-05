@@ -1,6 +1,6 @@
 package com.kn.springbootlearn.service;
 
-import com.kn.springbootlearn.entity.ImageCode;
+import com.kn.springbootlearn.entity.ValidateCode;
 import org.springframework.web.context.request.ServletWebRequest;
 
 /**
@@ -9,6 +9,6 @@ import org.springframework.web.context.request.ServletWebRequest;
  * @ Date:Created in 2019/4/3 21:25
  * @ Modified By:
  */
-public interface ValidateService {
-    ImageCode generate(ServletWebRequest request);
+public interface ValidateCodeGenerator {
+    ValidateCode generate(ServletWebRequest request);
 }

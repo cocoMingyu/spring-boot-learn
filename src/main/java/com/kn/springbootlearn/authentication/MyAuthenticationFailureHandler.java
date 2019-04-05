@@ -32,7 +32,7 @@ public class MyAuthenticationFailureHandler extends ExceptionMappingAuthenticati
         if (securityProperties.getBrowser().getLoginType().equals(LoginType.JSON)){
             response.setStatus(HttpStatus.BAD_REQUEST.value());
             response.setContentType("application/json;charset=UTF-8");
-            response.getWriter().write(objectMapper.writeValueAsString(e));
+            response.getWriter().write(objectMapper.writeValueAsString(e.getMessage()));
         }else {
             super.onAuthenticationFailure(request, response, e);
         }

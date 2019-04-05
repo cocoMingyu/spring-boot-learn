@@ -2,11 +2,27 @@
   "hints": [],
   "groups": [
     {
+      "sourceType": "com.kn.springbootlearn.component.properties.SecurityProperties",
+      "name": "kn.security",
+      "type": "com.kn.springbootlearn.component.properties.SecurityProperties"
+    },
+    {
       "sourceType": "com.kn.springbootlearn.config.DataSourceConfig",
       "name": "spring.datasource",
       "sourceMethod": "druid()",
       "type": "javax.sql.DataSource"
     }
   ],
-  "properties": []
+  "properties": [
+    {
+      "sourceType": "com.kn.springbootlearn.component.properties.SecurityProperties",
+      "name": "kn.security.browser",
+      "type": "com.kn.springbootlearn.component.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.kn.springbootlearn.component.properties.SecurityProperties",
+      "name": "kn.security.code",
+      "type": "com.kn.springbootlearn.component.properties.ValidateCodeProperties"
+    }
+  ]
 }

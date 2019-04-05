@@ -28,9 +28,10 @@ public class MyUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
         Users user = userMapper.findUserByName(s);
+        //注册时就应该加密密码
         String encode = passwordEncoder.encode(user.getPassword());
         System.out.println(encode);
-        return new User(s,user.getPassword(),true,true,true,
+        return new User(s,encode,true,true,true,
                 true,AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
     }
 }

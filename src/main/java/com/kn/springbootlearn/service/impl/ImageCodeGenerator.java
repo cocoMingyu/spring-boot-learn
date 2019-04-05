@@ -2,8 +2,7 @@ package com.kn.springbootlearn.service.impl;
 
 import com.kn.springbootlearn.component.properties.SecurityProperties;
 import com.kn.springbootlearn.entity.ImageCode;
-import com.kn.springbootlearn.service.ValidateService;
-import org.springframework.stereotype.Service;
+import com.kn.springbootlearn.service.ValidateCodeGenerator;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 
@@ -17,7 +16,7 @@ import java.util.Random;
  * @ Date:Created in 2019/4/3 21:26
  * @ Modified By:
  */
-public class ValidateServiceImpl implements ValidateService {
+public class ImageCodeGenerator implements ValidateCodeGenerator {
 
     private SecurityProperties securityProperties;
 
