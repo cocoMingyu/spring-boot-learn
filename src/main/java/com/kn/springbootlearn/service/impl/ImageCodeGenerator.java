@@ -3,6 +3,8 @@ package com.kn.springbootlearn.service.impl;
 import com.kn.springbootlearn.component.properties.SecurityProperties;
 import com.kn.springbootlearn.entity.ImageCode;
 import com.kn.springbootlearn.service.ValidateCodeGenerator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 
@@ -16,8 +18,9 @@ import java.util.Random;
  * @ Date:Created in 2019/4/3 21:26
  * @ Modified By:
  */
+@Component(value = "imageCodeGenerator")
 public class ImageCodeGenerator implements ValidateCodeGenerator {
-
+    @Autowired
     private SecurityProperties securityProperties;
 
     @Override

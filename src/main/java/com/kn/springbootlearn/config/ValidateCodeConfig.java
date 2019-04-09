@@ -21,12 +21,4 @@ public class ValidateCodeConfig {
 
     @Autowired
     private SecurityProperties securityProperties;
-
-    @Bean
-    @ConditionalOnMissingBean(name = "imageCodeGenerator")
-    public ValidateCodeGenerator validateService(){
-        ImageCodeGenerator imageCodeGenerator = new ImageCodeGenerator();
-        imageCodeGenerator.setSecurityProperties(securityProperties);
-        return imageCodeGenerator;
-    }
 }

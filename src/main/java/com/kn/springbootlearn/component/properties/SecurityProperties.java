@@ -1,6 +1,7 @@
 package com.kn.springbootlearn.component.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 /**
  * @ Author:kn
@@ -8,6 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @ Date:Created in 2019/4/2 19:40
  * @ Modified By:
  */
+@Component
 @ConfigurationProperties(prefix = "kn.security")
 public class SecurityProperties {
     private BrowserProperties browser=new BrowserProperties();
