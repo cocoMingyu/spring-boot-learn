@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kn.springbootlearn.entity.dao.UsersMapper">
+  <resultMap id="BaseResultMap" type="com.kn.springbootlearn.entity.model.Users">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="useridnet" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="businessid" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="nickname" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="headimgurl" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="idcard" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="mobile" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="wx_unionid" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="isrealname" javaType="java.lang.Byte" jdbcType="TINYINT" />
+      <arg column="createdat" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="updatedat" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="years" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="signature" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="constellation" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="address" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="themeurl" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="password" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, useridnet, businessid, name, nickname, headimgurl, idcard, mobile, wx_unionid, 
+    isrealname, createdat, updatedat, years, signature, constellation, address, themeurl, 
+    password
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from user
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.kn.springbootlearn.entity.model.Users">
+    insert into user (id, useridnet, businessid, 
+      name, nickname, headimgurl, 
+      idcard, mobile, wx_unionid, 
+      isrealname, createdat, updatedat, 
+      years, signature, constellation, 
+      address, themeurl, password
+      )
+    values (#{id,jdbcType=INTEGER}, #{useridnet,jdbcType=VARCHAR}, #{businessid,jdbcType=VARCHAR}, 
+      #{name,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, #{headimgurl,jdbcType=VARCHAR}, 
+      #{idcard,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR}, #{wxUnionid,jdbcType=VARCHAR}, 
+      #{isrealname,jdbcType=TINYINT}, #{createdat,jdbcType=TIMESTAMP}, #{updatedat,jdbcType=TIMESTAMP}, 
+      #{years,jdbcType=VARCHAR}, #{signature,jdbcType=VARCHAR}, #{constellation,jdbcType=VARCHAR}, 
+      #{address,jdbcType=VARCHAR}, #{themeurl,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.kn.springbootlearn.entity.model.Users">
+    insert into user
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="useridnet != null">
+        useridnet,
+      </if>
+      <if test="businessid != null">
+        businessid,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="nickname != null">
+        nickname,
+      </if>
+      <if test="headimgurl != null">
+        headimgurl,
+      </if>
+      <if test="idcard != null">
+        idcard,
+      </if>
+      <if test="mobile != null">
+        mobile,
+      </if>
+      <if test="wxUnionid != null">
+        wx_unionid,
+      </if>
+      <if test="isrealname != null">
+        isrealname,
+      </if>
+      <if test="createdat != null">
+        createdat,
+      </if>
+      <if test="updatedat != null">
+        updatedat,
+      </if>
+      <if test="years != null">
+        years,
+      </if>
+      <if test="signature != null">
+        signature,
+      </if>
+      <if test="constellation != null">
+        constellation,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="themeurl != null">
+        themeurl,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="useridnet != null">
+        #{useridnet,jdbcType=VARCHAR},
+      </if>
+      <if test="businessid != null">
+        #{businessid,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null">
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="headimgurl != null">
+        #{headimgurl,jdbcType=VARCHAR},
+      </if>
+      <if test="idcard != null">
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="wxUnionid != null">
+        #{wxUnionid,jdbcType=VARCHAR},
+      </if>
+      <if test="isrealname != null">
+        #{isrealname,jdbcType=TINYINT},
+      </if>
+      <if test="createdat != null">
+        #{createdat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedat != null">
+        #{updatedat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="years != null">
+        #{years,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="constellation != null">
+        #{constellation,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="themeurl != null">
+        #{themeurl,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.kn.springbootlearn.entity.model.Users">
+    update user
+    <set>
+      <if test="useridnet != null">
+        useridnet = #{useridnet,jdbcType=VARCHAR},
+      </if>
+      <if test="businessid != null">
+        businessid = #{businessid,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null">
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="headimgurl != null">
+        headimgurl = #{headimgurl,jdbcType=VARCHAR},
+      </if>
+      <if test="idcard != null">
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        mobile = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="wxUnionid != null">
+        wx_unionid = #{wxUnionid,jdbcType=VARCHAR},
+      </if>
+      <if test="isrealname != null">
+        isrealname = #{isrealname,jdbcType=TINYINT},
+      </if>
+      <if test="createdat != null">
+        createdat = #{createdat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedat != null">
+        updatedat = #{updatedat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="years != null">
+        years = #{years,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        signature = #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="constellation != null">
+        constellation = #{constellation,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="themeurl != null">
+        themeurl = #{themeurl,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.kn.springbootlearn.entity.model.Users">
+    update user
+    set useridnet = #{useridnet,jdbcType=VARCHAR},
+      businessid = #{businessid,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      headimgurl = #{headimgurl,jdbcType=VARCHAR},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      mobile = #{mobile,jdbcType=VARCHAR},
+      wx_unionid = #{wxUnionid,jdbcType=VARCHAR},
+      isrealname = #{isrealname,jdbcType=TINYINT},
+      createdat = #{createdat,jdbcType=TIMESTAMP},
+      updatedat = #{updatedat,jdbcType=TIMESTAMP},
+      years = #{years,jdbcType=VARCHAR},
+      signature = #{signature,jdbcType=VARCHAR},
+      constellation = #{constellation,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      themeurl = #{themeurl,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="com.kn.springbootlearn.entity.model.Users">
+    <constructor>
+      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+      <arg column="useridnet" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="businessid" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="nickname" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="headimgurl" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="idcard" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="mobile" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="wx_unionid" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="isrealname" javaType="java.lang.Byte" jdbcType="TINYINT" />
+      <arg column="createdat" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="updatedat" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+      <arg column="years" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="signature" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="constellation" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="address" javaType="java.lang.String" jdbcType="VARCHAR" />
+      <arg column="themeurl" javaType="java.lang.String" jdbcType="VARCHAR" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, useridnet, businessid, name, nickname, headimgurl, idcard, mobile, wx_unionid, 
+    isrealname, createdat, updatedat, years, signature, constellation, address, themeurl
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from user
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.kn.springbootlearn.entity.model.Users">
+    insert into user (id, useridnet, businessid, 
+      name, nickname, headimgurl, 
+      idcard, mobile, wx_unionid, 
+      isrealname, createdat, updatedat, 
+      years, signature, constellation, 
+      address, themeurl)
+    values (#{id,jdbcType=INTEGER}, #{useridnet,jdbcType=VARCHAR}, #{businessid,jdbcType=VARCHAR}, 
+      #{name,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, #{headimgurl,jdbcType=VARCHAR}, 
+      #{idcard,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR}, #{wxUnionid,jdbcType=VARCHAR}, 
+      #{isrealname,jdbcType=TINYINT}, #{createdat,jdbcType=TIMESTAMP}, #{updatedat,jdbcType=TIMESTAMP}, 
+      #{years,jdbcType=VARCHAR}, #{signature,jdbcType=VARCHAR}, #{constellation,jdbcType=VARCHAR}, 
+      #{address,jdbcType=VARCHAR}, #{themeurl,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.kn.springbootlearn.entity.model.Users">
+    insert into user
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="useridnet != null">
+        useridnet,
+      </if>
+      <if test="businessid != null">
+        businessid,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="nickname != null">
+        nickname,
+      </if>
+      <if test="headimgurl != null">
+        headimgurl,
+      </if>
+      <if test="idcard != null">
+        idcard,
+      </if>
+      <if test="mobile != null">
+        mobile,
+      </if>
+      <if test="wxUnionid != null">
+        wx_unionid,
+      </if>
+      <if test="isrealname != null">
+        isrealname,
+      </if>
+      <if test="createdat != null">
+        createdat,
+      </if>
+      <if test="updatedat != null">
+        updatedat,
+      </if>
+      <if test="years != null">
+        years,
+      </if>
+      <if test="signature != null">
+        signature,
+      </if>
+      <if test="constellation != null">
+        constellation,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="themeurl != null">
+        themeurl,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="useridnet != null">
+        #{useridnet,jdbcType=VARCHAR},
+      </if>
+      <if test="businessid != null">
+        #{businessid,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null">
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="headimgurl != null">
+        #{headimgurl,jdbcType=VARCHAR},
+      </if>
+      <if test="idcard != null">
+        #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="wxUnionid != null">
+        #{wxUnionid,jdbcType=VARCHAR},
+      </if>
+      <if test="isrealname != null">
+        #{isrealname,jdbcType=TINYINT},
+      </if>
+      <if test="createdat != null">
+        #{createdat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedat != null">
+        #{updatedat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="years != null">
+        #{years,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="constellation != null">
+        #{constellation,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="themeurl != null">
+        #{themeurl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.kn.springbootlearn.entity.model.Users">
+    update user
+    <set>
+      <if test="useridnet != null">
+        useridnet = #{useridnet,jdbcType=VARCHAR},
+      </if>
+      <if test="businessid != null">
+        businessid = #{businessid,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null">
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="headimgurl != null">
+        headimgurl = #{headimgurl,jdbcType=VARCHAR},
+      </if>
+      <if test="idcard != null">
+        idcard = #{idcard,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null">
+        mobile = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="wxUnionid != null">
+        wx_unionid = #{wxUnionid,jdbcType=VARCHAR},
+      </if>
+      <if test="isrealname != null">
+        isrealname = #{isrealname,jdbcType=TINYINT},
+      </if>
+      <if test="createdat != null">
+        createdat = #{createdat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedat != null">
+        updatedat = #{updatedat,jdbcType=TIMESTAMP},
+      </if>
+      <if test="years != null">
+        years = #{years,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        signature = #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="constellation != null">
+        constellation = #{constellation,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="themeurl != null">
+        themeurl = #{themeurl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.kn.springbootlearn.entity.model.Users">
+    update user
+    set useridnet = #{useridnet,jdbcType=VARCHAR},
+      businessid = #{businessid,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      headimgurl = #{headimgurl,jdbcType=VARCHAR},
+      idcard = #{idcard,jdbcType=VARCHAR},
+      mobile = #{mobile,jdbcType=VARCHAR},
+      wx_unionid = #{wxUnionid,jdbcType=VARCHAR},
+      isrealname = #{isrealname,jdbcType=TINYINT},
+      createdat = #{createdat,jdbcType=TIMESTAMP},
+      updatedat = #{updatedat,jdbcType=TIMESTAMP},
+      years = #{years,jdbcType=VARCHAR},
+      signature = #{signature,jdbcType=VARCHAR},
+      constellation = #{constellation,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      themeurl = #{themeurl,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
