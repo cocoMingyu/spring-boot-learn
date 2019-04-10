@@ -79,7 +79,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 //匹配放行
                 .antMatchers("/authentication/require",
                         securityProperties.getBrowser().getLoginPage(),
-                        "/code/image").permitAll()
+                        "/code/*").permitAll()
                 .anyRequest()
                 .authenticated();
     }
