@@ -17,10 +17,8 @@ public class MyFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println("myfilter  process---");
         long starttime = System.currentTimeMillis();
         filterChain.doFilter(servletRequest,servletResponse);
-        System.out.println("filter 处理时间="+(System.currentTimeMillis()-starttime));
     }
 
     @Override

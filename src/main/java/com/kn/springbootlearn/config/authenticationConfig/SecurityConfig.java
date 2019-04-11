@@ -1,18 +1,14 @@
-package com.kn.springbootlearn.config;
+package com.kn.springbootlearn.config.authenticationConfig;
 
-import com.kn.springbootlearn.authentication.MyAuthenticationFailureHandler;
-import com.kn.springbootlearn.authentication.MyAuthenticationSuccessHandler;
+import com.kn.springbootlearn.component.properties.SecurityConstants;
 import com.kn.springbootlearn.component.properties.SecurityProperties;
-import com.kn.springbootlearn.web.filter.ValidateCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
 
@@ -25,18 +21,17 @@ import javax.sql.DataSource;
  * @ Modified By:
  */
 @EnableWebSecurity
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+public class SecurityConfig extends AbstaractChannelSecurityConfig {
     @Autowired
     private SecurityProperties securityProperties;
-    @Autowired
-    private MyAuthenticationSuccessHandler knAuthenticationHandler;
-    @Autowired
-    private MyAuthenticationFailureHandler myAuthenticationFailureHandler;
     @Autowired
     private DataSource dataSource;
     @Autowired
     private UserDetailsService userDetailsService;
-
+    @Autowired
+    private SmsCodeAuthenticationScurityConfig smsCodeAuthenticationScurityConfig;
+    @Autowired
+    private ValidateCodeSecurityConfig validateCodeSecurityConfig;
     //使用security的加密规则对密码进行加密,也可以自定义
     @Bean
     public PasswordEncoder passwordEncoder(){
@@ -55,42 +50,31 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        ValidateCodeFilter validateCodeFilter=new ValidateCodeFilter();
-        validateCodeFilter.setSecurityProperties(securityProperties);
-        validateCodeFilter.setMyAuthenticationFailureHandler(myAuthenticationFailureHandler);
-        validateCodeFilter.afterPropertiesSet();
-
-        //在Security的默认拦截器里，默认会开启CSRF处理，判断请求是否携带了token，如果没有就拒绝访问
-        http.csrf().disable();
-        //在那个拦截器之前执行
-        http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
-                .formLogin()
-                .loginPage("/authentication/require")//自定义登陆界面
-                .loginProcessingUrl("/authentication/form")
-                .successHandler(knAuthenticationHandler)
-                .failureHandler(myAuthenticationFailureHandler)
+        //密码登录配置
+        applyPasswordAuthenticationConfig(http);
+        //校验码配置
+        http.apply(validateCodeSecurityConfig)
                 .and()
-             .rememberMe()
+                .apply(smsCodeAuthenticationScurityConfig)//短信验证码配置
+                .and()
+                .rememberMe()
                 .tokenRepository(persistentTokenRepository())
                 .tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
                 .userDetailsService(userDetailsService)
                 .and()
                 .authorizeRequests()
                 //匹配放行
-                .antMatchers("/authentication/require",
+                .antMatchers(
+                        SecurityConstants.DEFAULT_UNAUTHENTICATION_URL,
+                        SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
                         securityProperties.getBrowser().getLoginPage(),
-                        "/code/*").permitAll()
+                        SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX+"/*")
+                .permitAll()
                 .anyRequest()
-                .authenticated();
-    }
-
-    /*//定义认证规则
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        //super.configure(auth);
-       *//* auth.inMemoryAuthentication()
-                .withUser("kn").password("123456").roles("VIP1","VIP2","VIP3")
+                .authenticated()
                 .and()
-                .withUser("xx").password("123456").roles("VIP1");*//*
-    }*/
+                //在Security的默认拦截器里，默认会开启CSRF处理，判断请求是否携带了token，如果没有就拒绝访问
+                .csrf().disable();
+
+    }
 }

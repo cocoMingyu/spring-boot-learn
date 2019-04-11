@@ -32,7 +32,7 @@ import java.util.Map;
  */
 @RestController
 public class ValidateCodeController {
-    public static  final String SESSION_KEY="SESSION_KEY_IMAGE_CODE";
+    public static  final String SESSION_KEY="SESSION_KEY_FOR_CODE_";
     private SessionStrategy sessionStrategy=new HttpSessionSessionStrategy();
     @Autowired
     private ImageCodeGenerator imageCodeGenerator;
@@ -47,6 +47,7 @@ public class ValidateCodeController {
             throws Exception {
         validateCodeProcessor.get(type+"ValidateCodeProcessor").create(new ServletWebRequest(request, response));
     }
+
 
     /*@GetMapping("/code/image")
     public void createCode(HttpServletRequest request, HttpServletResponse response) throws IOException {

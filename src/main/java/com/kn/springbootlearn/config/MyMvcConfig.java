@@ -1,6 +1,6 @@
 package com.kn.springbootlearn.config;
 
-import com.kn.springbootlearn.component.MyHandle;
+import com.kn.springbootlearn.web.aspect.MyHandle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

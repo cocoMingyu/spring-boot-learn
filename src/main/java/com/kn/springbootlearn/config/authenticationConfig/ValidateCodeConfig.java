@@ -1,4 +1,4 @@
-package com.kn.springbootlearn.config;
+package com.kn.springbootlearn.config.authenticationConfig;
 
 import com.kn.springbootlearn.component.properties.SecurityProperties;
 import com.kn.springbootlearn.service.SmsService;
