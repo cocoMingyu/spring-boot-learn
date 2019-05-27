@@ -16,7 +16,8 @@ import javax.sql.DataSource;
 
 /**
  * @ Author:kn
- * @ Description:
+ * @ Description: usernamepasswordAuthenticationFilter (authentication未认证)-->authenticationManager -->AuthenticationProvider -->UserDatailsService -->userDetails
+ *                -->authentication(已认证) -->securityContext -->SecurityContextHolder -->SecurityContextPerrsistenceFilter
  * @ Date:Created in 2019/3/29 16:06
  * @ Modified By:
  */

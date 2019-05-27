@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local
+    active: test
 
   #出现错误时, 直接抛出异常
   mvc:
